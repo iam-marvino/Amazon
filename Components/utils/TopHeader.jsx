@@ -124,7 +124,7 @@ function TopHeader() {
                         href={{
                           pathname: `${item._id}`,
                           query: {
-                            _id: item._id,
+                            id: item._id,
                             brand: item.brand,
                             category: item.category,
                             description: item.description,
